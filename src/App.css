@@ -1,0 +1,15 @@
+.universe {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #fff;
+  touch-action: none;
+}
+
+.universe canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
